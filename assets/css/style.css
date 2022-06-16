@@ -1,0 +1,93 @@
+
+
+
+.header {
+  background-color: bisque;
+  width: 100%;
+  height: 100px;
+  margin: auto;
+  position: relative;
+}
+
+.logo {
+  float: left;
+  height: 70px;
+  margin-left: 250px;
+  margin-top: 10px;
+}
+
+body {
+  margin: 0px;
+  padding: 0px;
+}
+
+.header ul li {
+  margin-top: 20px;
+  margin-right: 40px;
+  display: inline-block ;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  color: chocolate;
+}
+
+.header ul {
+margin-right: 100px;
+}
+
+.menu {
+  font-family: 'Courier New', Courier, monospace;
+  margin-top: 10px;
+  float: right;
+}
+
+.background {
+    width: 100%;
+    height: 92vh;
+    background-image: url('../images/bg-img.png');
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+    margin-top: -15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+.gambar1 {
+  border-radius: 50%;
+  width: 400px;
+  margin-right: 50px;
+
+}
+
+.description {
+  color: #19345E;
+}
+
+.sub {
+  font-size: 25px;
+  margin: 0px;
+}
+.name {
+  font-size: 85px;
+  margin: 0px
+}
+
+.bwh {
+  margin: 0px;
+  margin-bottom: 30px;
+}
+
+.button {
+  border: 2px solid #F47522;;
+  border-radius: 30px;
+  padding: 10px 30px;
+  color: white;
+  background-color: coral;
+  margin-top: 30px;
+}
